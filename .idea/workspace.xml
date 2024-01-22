@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf444407-259f-4561-a2a0-b2560164ed67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/src/main/java/com/oxuegen/user_core/configuration/AxonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/src/main/java/com/oxuegen/user_core/events/UserRegisteredEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/src/main/java/com/oxuegen/user_core/events/UserRemovedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/src/main/java/com/oxuegen/user_core/events/UserUpdatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/src/main/java/com/oxuegen/user_core/models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/src/main/java/com/oxuegen/user_core/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/src/main/java/com/oxuegen/user_core/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/UserCmdApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/aggregates/UserAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/commands/RegisterUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/commands/RemoveUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/commands/UpdateUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/contollers/RegisterUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/dto/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/dto/RegisterUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/security/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/java/com/oxuegen/user_cmd_api/security/PasswordEncoderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_cmd_api/src/test/java/com/oxuegen/user_cmd_api/UserCmdApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/UserQueryApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/handlers/UserEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/handlers/UserEventHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_query_api/src/test/java/com/oxuegen/user_query_api/UserQueryApiApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/user-core" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2bAqcAwBaHtzhhSvOtdtIp1NgLY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-15",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "ce65382013289af7fba4a8796d82a25b"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserCmdApiApplication">
+    <configuration name="UserCmdApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user_cmd_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.oxuegen.user_cmd_api.UserCmdApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserQueryApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user_query_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.oxuegen.user_query_api.UserQueryApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf444407-259f-4561-a2a0-b2560164ed67" name="Changes" comment="" />
+      <created>1705668310326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705668310326</updated>
+      <workItem from="1705668312993" duration="663000" />
+      <workItem from="1705909461023" duration="12124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
