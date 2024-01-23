@@ -31,7 +31,7 @@ public class DeleteUserController {
         }
         catch (Exception ex){
             var removeErrorMessage = "Error while processing delete user";
-            log.error(removeErrorMessage);
+            log.error(ex.toString());
 
             return new ResponseEntity<>(new BaseResponse(removeErrorMessage), HttpStatus.INTERNAL_SERVER_ERROR);
         }

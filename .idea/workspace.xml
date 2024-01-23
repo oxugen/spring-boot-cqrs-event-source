@@ -50,6 +50,12 @@
     "spring.configuration.checksum": "f458fd3d421d982c2fd994279cd3b958"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.oxuegen.user_query_api.config" />
+      <recent name="com.oxuegen.user_query_api.dto" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -83,7 +89,7 @@
       <updated>1705668310326</updated>
       <workItem from="1705668312993" duration="663000" />
       <workItem from="1705909461023" duration="12124000" />
-      <workItem from="1705998024815" duration="5776000" />
+      <workItem from="1705998024815" duration="12902000" />
     </task>
     <servers />
   </component>
@@ -100,5 +106,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/controllers/UserLookupController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/controllers/UserLookupController.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/controllers/UserLookupController.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/controllers/UserLookupController.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

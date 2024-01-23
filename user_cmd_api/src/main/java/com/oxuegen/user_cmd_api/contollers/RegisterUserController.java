@@ -13,7 +13,7 @@ import javax.validation.Valid;
 import java.util.UUID;
 
 @RestController
-@RequestMapping(path = "/api/v1/register")
+@RequestMapping(path = "/api/v1/registerUser")
 @Slf4j
 public class RegisterUserController {
     private final CommandGateway commandGateway;
@@ -35,7 +35,7 @@ public class RegisterUserController {
         }
         catch (Exception ex){
             var safeErrorMessage = "Error while processing register user request for id " + command.getId();
-            log.error(safeErrorMessage);
+            log.error(ex.toString());
 
             return new ResponseEntity<>(new RegisterUserResponse(id, safeErrorMessage), HttpStatus.INTERNAL_SERVER_ERROR);
         }
