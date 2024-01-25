@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/user-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/user.oauth2.0" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/user_cmd_api" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/user_query_api" vcs="Git" />
   </component>

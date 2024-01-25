@@ -9,6 +9,7 @@ import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -26,6 +27,7 @@ public class UpdateUserController {
     }
 
     @PutMapping(path = "/{id}")
+    //@PreAuthorize("hasAuthority('WRITE_PRIVILEGE')")
     public ResponseEntity<BaseResponse> updateUser(@PathVariable(value = "id") String id,
                                                    @Valid @RequestBody UpdateUserCommand command){
         try{

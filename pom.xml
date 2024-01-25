@@ -10,5 +10,6 @@
     <module>user-core</module>
     <module>user_cmd_api</module>
     <module>user_query_api</module>
+    <module>user.oauth2.0</module>
   </modules>
 </project>

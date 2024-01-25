@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf444407-259f-4561-a2a0-b2560164ed67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/src/main/java/com/oxuegen/user_oauth2_0/OAuth2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/src/main/java/com/oxuegen/user_oauth2_0/configuration/AuthServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/src/main/java/com/oxuegen/user_oauth2_0/configuration/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/src/main/java/com/oxuegen/user_oauth2_0/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/src/main/java/com/oxuegen/user_oauth2_0/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.oauth2.0/src/test/java/com/oxuegen/user_oauth2_0/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/user.oauth2.0" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,23 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-15",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "f458fd3d421d982c2fd994279cd3b958"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-15&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f458fd3d421d982c2fd994279cd3b958&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.oxuegen.user_query_api.config" />
@@ -63,7 +79,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserCmdApiApplication">
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user.oauth2.0" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.oxuegen.user_oauth2_0.OAuth2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserCmdApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user_cmd_api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.oxuegen.user_cmd_api.UserCmdApiApplication" />
@@ -89,7 +112,8 @@
       <updated>1705668310326</updated>
       <workItem from="1705668312993" duration="663000" />
       <workItem from="1705909461023" duration="12124000" />
-      <workItem from="1705998024815" duration="12902000" />
+      <workItem from="1705998024815" duration="12914000" />
+      <workItem from="1706173761440" duration="12142000" />
     </task>
     <servers />
   </component>
@@ -111,24 +135,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/controllers/UserLookupController.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/controllers/UserLookupController.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/controllers/UserLookupController.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/user_query_api/src/main/java/com/oxuegen/user_query_api/controllers/UserLookupController.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/user.oauth2.0/src/main/java/com/oxuegen/user_oauth2_0/services/UserService.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
